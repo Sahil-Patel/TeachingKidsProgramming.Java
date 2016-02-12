@@ -86,7 +86,7 @@ public class TurtleTree
   {
     //            ------------- Recipe for drawShorterBranch --#8.2
     //                drawBranch (10 pixels shorter) --#4
-    Tortoise.move(branchLength - 10);
+    drawBranch(branchLength - 10);
     //            ------------- End of drawShorterBranch recipe --#8.3
   }
 }
