@@ -36,8 +36,11 @@ public class TurtleTree
       //        Move the tortoise the length of the current branch --#1.1 
       Tortoise.move(branchLength);
       //        drawLowerBranches (recipe below) --#6.1
+      adjustColor(branchLength);
       //
       drawLowerBranches(branchLength);
+      branchLength = branchLength + 10;
+      adjustColor(branchLength);
       // 
     }
     //    ------------- End of drawBranch recipe --#2.3
