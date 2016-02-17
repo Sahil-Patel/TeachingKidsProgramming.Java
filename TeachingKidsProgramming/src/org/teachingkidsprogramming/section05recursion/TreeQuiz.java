@@ -7,11 +7,10 @@ public class TreeQuiz extends TreeQuizAdapter
 {
   public void questions1To4()
   {
+    int currentLength = 2;
     //   Question 1 
     //   doubleLength (recipe below) 
-    //   ------------- Recipe for doubleLength 
-    //       make the current length twice what it is
-    //   ------------- End of doubleLength recipe
+    doubleLength(currentLength);
     //
     //   Question 2 
     //   decreaseTurn (recipe below) 
@@ -30,6 +29,13 @@ public class TreeQuiz extends TreeQuizAdapter
     //   ------------- Recipe for angleFive 
     //       sets the 5th angle to 36 degrees
     //   ------------- End of angleFive recipe
+  }
+  private void doubleLength(int currentLength)
+  {
+    //   ------------- Recipe for doubleLength 
+    //       make the current length twice what it is
+    currentLength = currentLength * 2;
+    //   ------------- End of doubleLength recipe
   }
   public static void main(String[] args)
   {
