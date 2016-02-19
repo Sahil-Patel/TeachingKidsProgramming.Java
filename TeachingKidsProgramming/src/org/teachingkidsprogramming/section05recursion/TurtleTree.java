@@ -10,7 +10,6 @@ import org.teachingextensions.logo.utils.ColorUtils.PenColors.Greens;
 
 public class TurtleTree
 {
-  @SuppressWarnings("unused")
   public static void main(String[] args)
   {
     Tortoise.show();
