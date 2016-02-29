@@ -5,6 +5,7 @@ package org.teachingkidsprogramming.section06modelviewcontroller;
 public class OneFishTwoFish
 {
   // Create a Scanner to make a string --#1
+  private static Scanner Scanner;
   public static void main(String[] args)
   {
     makeAString();
@@ -13,6 +14,7 @@ public class OneFishTwoFish
   {
     final String input = "1 fish 2 fish red fish blue fish,black fish,blue fish,old fish,new fish ";
     // Use your scanner with your input --#2
+    scanner = new Scanner(input);
     // Display a new line and "We have: " and the input and then a new line --#3
     // Now, tell a story with a new Scanner instance (tellAStory recipe) --#8
   }

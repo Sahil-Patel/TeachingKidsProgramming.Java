@@ -28,9 +28,8 @@ public class AdLibsQuiz extends AdLibsQuizAdapter
   public void question4(Pieces pieces)
   {
     //  Set template4 to the template which does'g' + pieces.middle + 'e'
-  template4 ={ {'g' + pieces.middle + 'e'};}
-  public static void main(String[] args)
-  {
-    new AdLibsQuizGrader().grade(new AdLibsQuiz());
+    {
+      new AdLibsQuizGrader().grade(new AdLibsQuiz());
+    }
   }
 }
