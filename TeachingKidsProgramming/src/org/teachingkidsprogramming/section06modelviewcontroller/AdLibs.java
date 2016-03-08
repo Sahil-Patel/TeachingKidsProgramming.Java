@@ -58,7 +58,7 @@ public class AdLibs
     Tortoise.setX(270);
     Tortoise.setY(400);
     Tortoise.setSpeed(10);
-    Tortoise.setPenWidth(3);
+    Tortoise.setPenWidth(7);
     Tortoise.move(150);
     Tortoise.turn(90);
     Tortoise.move(50);
@@ -125,7 +125,7 @@ public class AdLibs
     Tortoise.setX(270);
     Tortoise.setY(400);
     Tortoise.setSpeed(10);
-    Tortoise.setPenWidth(2);
+    Tortoise.setPenWidth(5);
     Tortoise.setPenColor(Whites.White);
     Tortoise.setAngle(0);
     Tortoise.move(150);
