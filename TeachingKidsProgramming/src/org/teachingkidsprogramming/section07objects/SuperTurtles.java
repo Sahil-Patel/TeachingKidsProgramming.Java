@@ -1,6 +1,7 @@
 package org.teachingkidsprogramming.section07objects;
 
 import org.teachingextensions.WindowUtils.MultiTurtleWindow;
+import org.teachingextensions.logo.Sound;
 import org.teachingextensions.logo.Turtle;
 
 public class SuperTurtles
@@ -53,5 +54,7 @@ public class SuperTurtles
     //        Have your speedyTurtle draw a triangle with 100 pixel sides
     speedyTurtle.drawTriangle(100);
     //  ------------- End of makeSpeedyTurtle --#1.1 
+    new Sound(Sound.TKPSound.Applause);
+    speedyTurtle.speak();
   }
 }
