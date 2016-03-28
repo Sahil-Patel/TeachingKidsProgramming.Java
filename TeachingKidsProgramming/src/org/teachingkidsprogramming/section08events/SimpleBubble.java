@@ -42,12 +42,6 @@ public class SimpleBubble implements MouseLeftClickListener
     //     createBubble (recipe below) --#8.1
     createBubble(x, y);
   }
-  @Override
-  public void onRightMouseClick(int x, int y)
-  {
-    //     createBubble (recipe below) --#8.1
-    createBubble(x, y);
-  }
   private void createBubble(int x, int y)
   {
     //     ------------- Recipe for createBubble --#8.2

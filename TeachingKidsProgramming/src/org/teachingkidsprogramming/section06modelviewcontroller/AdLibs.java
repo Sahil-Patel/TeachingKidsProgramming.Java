@@ -28,27 +28,8 @@ public class AdLibs
     currentStory += "After that, " + sentence;
     //  Show the currentStory in a message box as a message --#1.1
     MessageBox.showMessage(currentStory);
-    //    Ask the user to enter an adverb, save it as currentAdverb --#2
-    String currentAdverb2 = MessageBox.askForTextInput("enter a noun");
-    //  Ask the user to enter a verb ending in '-ed', save it as currentEdVerb --#4
-    String currentEdVerb2 = MessageBox.askForTextInput("enter a verb");
-    //  Ask the user to enter a body part, save it as currentBodyPart --#6
-    String currentBodyPart2 = MessageBox.askForTextInput("enter adverb");
-    //  Ask the user for a sentence
-    String sentence2 = MessageBox
-        .askForTextInput("Write a sentence that starts with a lowercase 'you' and has an action");
-    //  Set the value of the currentStory to the word "Today " --#1.2
-    String currentStory2 = "Today ";
-    //  Add the words "I woke " + currentAdverb + ". " to the currentStory --#3
-    currentStory2 += "I hit my " + currentAdverb2 + ". ";
-    //  Add the words '"Then I " + currentEdVerb + " " to the currentStory --#5
-    currentStory2 += "Then I " + currentEdVerb2 + " and ";
-    //  Add the words "my " + currentBodyPart + ". " to the current story --#7
-    currentStory2 += "jumped " + currentBodyPart2 + ". ";
-    //  Add the words 'After that, ' + sentence
-    currentStory2 += "After that, " + sentence2;
-    //  Show the currentStory in a message box as a message --#1.1
-    MessageBox.showMessage(currentStory2);
+    // Is this the end?
+    String theEnd = MessageBox.askForTextInput("Is this the end? 'Yes' or 'No'");
     // Write end with Tortoise
     theEnd();
   }

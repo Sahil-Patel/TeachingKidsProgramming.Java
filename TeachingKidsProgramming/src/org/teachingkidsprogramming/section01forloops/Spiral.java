@@ -11,7 +11,7 @@ public class Spiral
   {
     //    Show the tortoise --#1
     Tortoise.show();
-    for (int i = 0; i < 75; i++)
+    for (int i = 0; i < 1000; i++)
     {
       //    Make the tortoise go as fast as possible --#4
       Tortoise.setSpeed(10);
@@ -27,9 +27,9 @@ public class Spiral
         //         Change the pen color of the line the tortoise draws the next color on the Color Wheel --#6
         Tortoise.setPenColor(ColorWheel.getNextColor());
         //         Move the tortoise 5 times the current line number you are drawing --#5
-        Tortoise.move(i * 5);
+        Tortoise.move(i * 1);
         //         Turn the tortoise 1/3 of 360 degrees to the right --#2
-        Tortoise.turn(125);
+        Tortoise.turn(79);
       }
       catch (RuntimeException re)
       {
